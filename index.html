@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador</title>
+    <title>Encriptador de Texto - Cosmonauta</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <img src="imagenes/Cosmo.PNG" alt="Cosmonauta Logo" class="logo">
+        </header>
+        <div class="content">
+            <div class="box">
+                <label for="input-text">Texto Original:</label>
+                <textarea id="input-text" placeholder="Escribe aquí el texto a encriptar"></textarea>
+            </div>
+            <div class="box">
+                <label for="output-text">Texto Encriptado:</label>
+                <textarea id="output-text" placeholder="Aquí aparecerá el texto encriptado" readonly></textarea>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="encrypt-button">Encriptar</button>
+            <button id="decrypt-button">Desencriptar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
