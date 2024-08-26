@@ -8,7 +8,7 @@ Este proyexto es una aplicación simple que permite a los usuarios encriptar y d
 - **HTML:** Estructura basica de la aplicación.
 - **CSS:** Estilización de la interfaz de usuario.
 - **JavaScript:** Lógica para encriptar y desencriptar texto.
-## Intalación
+## Instalación
 1. **Clona el repositorio:**
  ```bash
 git clone https://github.com/JOspinaD/Encriptador-de-texto.git
