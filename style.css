@@ -134,3 +134,76 @@ button:hover {
     color: black; 
     transform: scale(1.05); 
 }
+@media only screen and (max-width: 767px) {
+    body {
+        height: auto;
+        padding: 20px;
+        overflow: auto;
+    }
+
+    .container {
+        padding: 10px;
+        border-width: 1px;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 250px; /* Ajusta el tamaño del logo para móviles */
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .box {
+        margin: 10px 0; 
+    }
+
+    textarea {
+        height: 150px; /* Reduce el tamaño del textarea para móviles */
+    }
+
+    .buttons {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    button {
+        margin: 10px 0;
+        width: 100%; /* Botones ocupan todo el ancho disponible */
+    }
+}
+
+/* Estilos para pantallas de entre 768px y 1024px de ancho (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        padding: 20px;
+        border-width: 2px;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 300px; /* Ajusta el tamaño del logo para tablets */
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .box {
+        margin: 15px 0; 
+    }
+
+    textarea {
+        height: 200px; /* Ajusta el tamaño del textarea para tablets */
+    }
+
+    .buttons {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    button {
+        width: auto; /* Botones con ancho automático */
+    }
+}
